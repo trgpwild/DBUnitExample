@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+	<contato id="1" nome="Joao" endereco="Rua dos bobos nr 0" />
+	<contato id="2" nome="Maria" endereco="Rua dos alucinados nr 13" />
+	<contato id="3" nome="Pedro" endereco="Rua dos retardados nr 0991" />
+
+</dataset>
