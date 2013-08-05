@@ -21,7 +21,7 @@ import com.github.springtestdbunit.annotation.DatabaseSetup;
 @ContextConfiguration("classpath:applicationContextTest.xml")
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class, DbUnitTestExecutionListener.class})
 @DatabaseSetup("classpath:dataset/contato.xml")
-public class ContatoServiceAT extends AbstractTransactionalJUnit4SpringContextTests {
+public class ContatoServiceATest extends AbstractTransactionalJUnit4SpringContextTests {
 	
 	@Autowired private SessionFactory sessionFactory;
 	

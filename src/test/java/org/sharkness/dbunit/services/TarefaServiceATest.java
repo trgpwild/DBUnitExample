@@ -22,7 +22,7 @@ import com.github.springtestdbunit.annotation.DatabaseSetup;
 @ContextConfiguration("classpath:applicationContextTest.xml")
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class, DbUnitTestExecutionListener.class})
 @DatabaseSetup("classpath:dataset/tarefa.xml")
-public class TarefaServiceAT extends AbstractTransactionalJUnit4SpringContextTests {
+public class TarefaServiceATest extends AbstractTransactionalJUnit4SpringContextTests {
 	
 	@Autowired private SessionFactory sessionFactory;
 	
